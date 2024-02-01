@@ -31,7 +31,7 @@ function getResult(playerChoice, computerChoice) {
   return score
 }
 
-/
+
 function showResult(score, playerChoice, computerChoice) {
  
 
@@ -61,7 +61,7 @@ function onClickRPS(playerChoice) {
   showResult(score, playerChoice.value, computerChoice)
 }
 
-/
+
 function playGame() {
   
   let rpsButtons = document.querySelectorAll('.rpsButton')
